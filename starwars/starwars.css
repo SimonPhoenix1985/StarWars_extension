@@ -1,0 +1,58 @@
+#starWarsExtensionCustom {
+	width: 500px;
+	background-image: url("../images/sullust_04-2400x1200-795653638057.jpg");
+	background-size: cover;
+}
+
+#starWarsExtensionCustom .title {
+	font-weight: 900;
+	color: white;
+}
+
+#starWarsExtensionCustom .app_spinner {
+	background: rgba(255, 255, 255, 0.8) url("../images/spinner.svg") 50% 50% no-repeat;
+	display: none;
+	position: fixed;
+	z-index: 1060;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+#starWarsExtensionCustom .loading {
+	overflow: hidden;
+}
+
+#starWarsExtensionCustom .loading .app_spinner {
+	display: block;
+}
+
+#starWarsExtensionCustom #breadcrumbs, #starWarsExtensionCustom #detailsTitle, #starWarsExtensionCustom #detailsPage {
+	display: none;
+}
+
+#starWarsExtensionCustom #startPage .row, #starWarsExtensionCustom #detailsPage .detailsWrapper {
+	min-height: 380px;
+}
+
+#starWarsExtensionCustom #startPage .swTile, #starWarsExtensionCustom #detailsPage .swTile {
+	height: 170px;
+	cursor: pointer;
+}
+
+#starWarsExtensionCustom #startPage img, #starWarsExtensionCustom #detailsPage img {
+	height: 100px;
+	width: 100px;
+}
+
+#starWarsExtensionCustom #volumeUp, #starWarsExtensionCustom #volumeOff {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	cursor: pointer;
+}
+
+#starWarsExtensionCustom #volumeUp {
+	left: 40px;
+}

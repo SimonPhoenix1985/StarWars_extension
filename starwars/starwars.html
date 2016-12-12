@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="starwars.css">
+
+</head>
+<body>
+<div id="starWarsExtensionCustom">
+    <div class="container text-center">
+		<span id="volumeUp" class="glyphicon glyphicon-play" aria-hidden="true"></span>
+		<span id="volumeOff" class="glyphicon glyphicon-pause" aria-hidden="true"></span>
+        <h3 class="title" id="mainTitle">Star Wars</h3>
+        <h3 class="title" id="detailsTitle"></h3>
+        <div id="breadcrumbs">
+            <ol class="breadcrumb">
+                <li><a href="#" id="goToMain">Star Wars</a></li>
+                <li class="active crumb">Data</li>
+            </ol>
+        </div>
+        <div id="startPage">
+            <div class="row"></div>
+            <div id="paginator"></div>
+        </div>
+        <div id="characterDetails">
+            <div class="row"></div>
+        </div>
+        <div id="detailsPage">
+            <div class="detailsWrapper"></div>
+            <div id="paginatorDetails"></div>
+        </div>
+    </div>
+    <div class="app_spinner"></div>
+	<audio id="music" src="../starwars.3gp"  preload="auto" controls autoplay loop style="display: none;"></audio>
+</div>
+<script src="../libs/jquery.min.js"></script>
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="../css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="../libs/bootstrap.min.js"></script>
+<!--<script src="../jquery.bootpag.min.js"></script>-->
+<script src="../libs/jquery.twbsPagination.min.js"></script>
+<script src="../libs/underscore-min.js"></script>
+<script src="starwars.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+
+  "name": "Star Wars",
+  "description": "This extension allows user navigate the Star Wars characters",
+  "author": "Alexandr Maksimov",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_title": "Star Wars",
+    "default_icon": "images/dart.png",
+    "default_popup": "starwars/starwars.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "css": ["starwars/starwars.css"]
+    }
+  ],
+
+  "icons": {
+    "128": "images/dart128.png"
+  },
+
+  "permissions": [
+    "storage",
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+
+}
