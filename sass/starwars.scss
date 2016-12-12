@@ -19,7 +19,7 @@
 		height:     100%;
 		width:      100%;
 	}
-	.loading {
+	&.loading {
 		overflow: hidden;
 		.app_spinner {
 			display: block;

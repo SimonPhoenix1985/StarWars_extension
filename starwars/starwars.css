@@ -20,11 +20,11 @@
 	width: 100%;
 }
 
-#starWarsExtensionCustom .loading {
+#starWarsExtensionCustom.loading {
 	overflow: hidden;
 }
 
-#starWarsExtensionCustom .loading .app_spinner {
+#starWarsExtensionCustom.loading .app_spinner {
 	display: block;
 }
 
